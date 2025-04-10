@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Logo from "./components/Logo";
+import HeroImage from "@/images/Hero.png"
 
 export default function Home() {
   return (
@@ -50,7 +51,7 @@ export default function Home() {
                 {/* Hero image with logo */}
                 <div className="w-full h-full flex items-center justify-center text-gray-400">
                   <div className="text-center">
-                    <Logo className="h-32 w-32 mx-auto mb-4" />
+                    <Image src={HeroImage} alt="Giant Mouse on a House"/>
                     <p className="text-lg font-medium">Professional Rodent Control</p>
                     <p className="text-sm">Protecting your home from unwanted guests</p>
                   </div>
