@@ -12,7 +12,7 @@ export default function Home() {
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
                 {/* Custom mouse on house logo */}
-                <Logo className="h-10 w-10" />
+                <Logo theme="LIGHT" className="h-10 w-10" />
                 <span className="ml-2 text-xl font-bold text-gray-800">Un Mouse My House</span>
               </div>
             </div>
@@ -571,7 +571,7 @@ export default function Home() {
           <div className="md:flex md:items-center md:justify-between">
             <div className="flex items-center">
               {/* Custom mouse on house logo in footer */}
-              <Logo className="h-10 w-10" />
+              <Logo theme="DARK" className="h-10 w-10" />
               <span className="ml-2 text-xl font-bold">Un Mouse My House</span>
             </div>
             
