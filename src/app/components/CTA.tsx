@@ -10,10 +10,10 @@ const CTA = () => {
         </p>
         <div className="mt-8">
           <a
-            href="tel:+15551234567"
+            href="tel:+19787739258"
             className="inline-flex items-center justify-center px-8 py-3 text-lg font-semibold rounded-lg bg-white text-blue-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white shadow-lg transition ease-in-out duration-200"
           >
-            Call (555) 123-4567 Now!
+            Call (978) 773-9258 Now!
           </a>
         </div>
       </div>

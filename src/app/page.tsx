@@ -366,7 +366,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="ml-3 text-base text-gray-500">
-                    <p>Call us at: <span className="font-medium text-gray-900">(555) 123-4567</span></p>
+                    <p>Call us at: <span className="font-medium text-gray-900">(978) 773-9258</span></p>
                   </div>
                 </div>
                 
