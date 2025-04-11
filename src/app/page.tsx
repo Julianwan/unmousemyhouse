@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Logo from "./components/Logo";
 import HeroImage from "@/images/Hero.png"
+import CTA from "./components/CTA";
 
 export default function Home() {
   return (
@@ -62,24 +63,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section id="cta" className="py-16 bg-blue-600 text-white">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 className="text-3xl font-extrabold sm:text-4xl">
-      Drop the Cheese, Grab the Phone—Make Rodents Flee!
-    </h2>
-    <p className="mt-4 max-w-2xl mx-auto text-xl">
-      Say goodbye to mouse mayhem and hello to a squeak-free home. Call us now for a pest-free breeze!
-    </p>
-    <div className="mt-8">
-      <a
-        href="tel:+15551234567"
-        className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-md bg-white text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white shadow-md"
-      >
-        Call (555) 123-4567 Now!
-      </a>
-    </div>
-  </div>
-</section>
+     <CTA/>
       <section id="statistics" className="py-16 bg-white">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="text-center">
@@ -564,24 +548,7 @@ export default function Home() {
     </div>
   </div>
 </section>
-<section id="cta" className="py-16 bg-blue-600 text-white">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 className="text-3xl font-extrabold sm:text-4xl">
-      Drop the Cheese, Grab the Phone—Make Rodents Flee!
-    </h2>
-    <p className="mt-4 max-w-2xl mx-auto text-xl">
-      Say goodbye to mouse mayhem and hello to a squeak-free home. Call us now for a pest-free breeze!
-    </p>
-    <div className="mt-8">
-      <a
-        href="tel:+15551234567"
-        className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-md bg-white text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white shadow-md"
-      >
-        Call (555) 123-4567 Now!
-      </a>
-    </div>
-  </div>
-</section>
+<CTA/>
       {/* Footer */}
       <footer className="bg-gray-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
